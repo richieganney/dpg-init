@@ -9,5 +9,3 @@ resource "aws_route53_record" "this" {
   records = [aws_instance.dpg-2048.public_ip]
   ttl     = 30
 }
-
-kill_all_humans()
